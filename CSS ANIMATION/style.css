@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(90deg,rgb(225, 0, 255) 0% ,rgb(174, 0, 255)  100%);
+}
+.container{
+    height:100vh;
+    width: 100vw;
+}
+.wrapper{
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #fff;
+
+}
+
+.left,
+.right{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 141, 226);
+
+    animation: jumping 1.5s linear infinite;
+
+}
+@keyframes jumping {
+    0%,
+    100%{
+        transform: scale(0);
+    }
+   
+    50%{
+        transform: scale(1);
+    }
+    
+}

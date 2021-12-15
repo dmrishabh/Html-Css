@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background: ;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 44, 102, 0.781),
+      rgb(9, 0, 59)
+    ),
+    url(./cycle.jpg);
+  /* background-image: url(./cycle.jpg); */
+  /* background: linear-gradient(#13002c 15%,#03074b 100%); */
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 0, 100% 67%, 81% 83%, 0 60%, 0 0);
+}
+
+header h1 {
+  color: #fff;
+  font-size: 75px;
+  padding-top: 20%;
+  padding-left: 12%;
+}
+
+header p {
+  color: yellow;
+  font-style: italic;
+  font-family: serif;
+  padding-left: 13%;
+  padding-top: 6px;
+}
